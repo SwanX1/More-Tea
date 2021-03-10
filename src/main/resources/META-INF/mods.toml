@@ -1,0 +1,41 @@
+modLoader = "javafml"
+loaderVersion = "[35,)"
+license = "Unlicense"
+issueTrackerURL = "https://github.com/SwanX1/More-Tea/issues"
+
+[[mods]]
+modId = "moretea"
+version = "0.0.1-SNAPSHOT"
+displayName = "More Tea!"
+updateJSONURL = "https://cernavskis.dev/api/moretea.json"
+displayURL = "https://github.com/SwanX1/More-Tea"
+# A file name (in the root of the mod JAR) containing a logo for display
+#logoFile="examplemod.png"
+# A text field displayed in the mod UI
+#credits="SwanX1"
+authors = "SwanX1"
+description = '''
+More Tea! is an extension mod to Simply Tea, adding more features and cross-compatability with other mods.
+'''
+
+[[dependencies.moretea]]
+modId = "forge"
+mandatory = true
+versionRange = "[35,)"
+ordering = "NONE"
+side = "BOTH"
+
+# Simply Tea! 2.3.3+, required (2.3.4 in build.gradle)
+[[dependencies.moretea]]
+mandatory = true
+modId = "simplytea"
+ordering = "AFTER"
+side = "BOTH"
+versionRange = "[2.3.3,)"
+
+[[dependencies.moretea]]
+mandatory = true
+modId = "minecraft"
+ordering = "NONE"
+side = "BOTH"
+versionRange = "[1.16.4,1.17)"

@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "simplytea:cup_tea_mint",
+  "result": {
+    "item": "simplytea:cup_tea_mint"
+  },
+  "ingredients": [
+    {
+      "item": "simplytea:cup"
+    },
+    {
+      "item": "moretea:teabag_mint"
+    },
+    {
+      "item": "simplytea:teapot_hot"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "neapolitan"
+    }
+  ]
+}
