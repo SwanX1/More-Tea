@@ -5,7 +5,7 @@ issueTrackerURL = "https://github.com/SwanX1/More-Tea/issues"
 
 [[mods]]
 modId = "moretea"
-version = "0.0.1-SNAPSHOT"
+version = "0.1.0"
 displayName = "More Tea!"
 updateJSONURL = "https://cernavskis.dev/api/moretea.json"
 displayURL = "https://github.com/SwanX1/More-Tea"
